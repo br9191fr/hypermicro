@@ -1,0 +1,15 @@
+[package]
+name = "hypermicro"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "warp1"
+path = "src/bin/warp1.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+warp = "0.3.2"
+hyper =  {version = "0.14.18", features = ["server", "runtime"] }
