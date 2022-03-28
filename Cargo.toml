@@ -1,6 +1,7 @@
 [package]
 name = "hypermicro"
 version = "0.1.0"
+authors = ["Bruno Ricci <brricci@orange.fr>"]
 edition = "2021"
 
 [[bin]]
